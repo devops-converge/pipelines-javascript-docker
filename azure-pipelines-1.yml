@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '35e5c68b-b482-416f-9941-7a75898aa5bd'
   imageRepository: 'devopsconvergepipelinesjavascriptdocker'
   containerRegistry: 'devopsconvergetp.azurecr.io'
-  dockerfilePath: 'pipelines-javascript-docker/app/Dockerfile'
+  dockerfilePath: 'app/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
